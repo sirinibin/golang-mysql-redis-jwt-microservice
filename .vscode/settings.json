@@ -1,0 +1,9 @@
+{
+    "go.autocompleteUnimportedPackages": true,
+    "git.requireGitUserConfig": false,
+    "go.alternateTools": {
+      "go":"/snap/bin/go"
+    },
+    "go.gopath": "/home/sirin/go/src/gitlab.com/sirinibin/go-mysql-rest",
+    "go.goroot": "/home/sirin/go/src/gitlab.com/sirinibin/go-mysql-rest"
+}
