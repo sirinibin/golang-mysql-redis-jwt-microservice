@@ -221,7 +221,7 @@ func ListEmployee(w http.ResponseWriter, r *http.Request) {
 
 	criterias := models.SearchCriterias{
 		Page:   1,
-		Size:   2,
+		Size:   10,
 		SortBy: "updated_at desc",
 	}
 	keys, ok := r.URL.Query()["page"]

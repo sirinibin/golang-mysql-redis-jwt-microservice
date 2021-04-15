@@ -162,7 +162,7 @@ func APIInfo(w http.ResponseWriter, r *http.Request) {
 
 	var response models.Response
 	response.Status = true
-	response.Result = "Welcome to GoLang / MySql Microservice"
+	response.Result = "GoLang / MySql Microservice [ OAuth2, JWT and Redis used for security ] "
 
 	json.NewEncoder(w).Encode(response)
 }
